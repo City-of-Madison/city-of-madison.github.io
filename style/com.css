@@ -1,1 +1,194 @@
 /*City of Madison Status Styles*/
+@import url("https://use.typekit.net/xnl1tzf.css");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+a {
+  color: #065d8c;
+  border-bottom: 1px solid #065d8c;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a.hover {
+  color: #001e36;
+  border-bottom: 2px solid #043d5b;
+}
+a:focus,
+a.focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 4px #a2d7e8;
+          box-shadow: 0 0 0 4px #a2d7e8;
+  border-radius: 2px;
+}
+a:active,
+a.active {
+  color: #065d8c;
+  border-color: #065d8c;
+  border-width: 2px;
+}
+img.responsive {
+  width: 100%;
+  height: auto;
+}
+.sr-only,
+.screenreader {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.padding-top-10 {
+  padding-top: 10px;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "source-sans-pro", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-top: 14px;
+  margin-bottom: 7px;
+  font-weight: 600;
+  line-height: 1.333;
+}
+h1,
+.h1 {
+  font-size: 3.4rem;
+}
+@media (min-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  h1,
+  .h1 {
+    font-size: 5rem;
+  }
+}
+h2,
+.h2 {
+  font-size: 3.6rem;
+}
+@media (min-width: 992px) {
+  h2,
+  .h2 {
+    font-size: 4rem;
+  }
+}
+h3,
+.h3 {
+  font-size: 3rem;
+}
+h4,
+.h4 {
+  font-size: 2.4rem;
+}
+h5,
+.h5 {
+  font-size: 2rem;
+}
+h6,
+.h6 {
+  font-size: 1.6rem;
+}
+.page-header {
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+  border-bottom: 8px solid #eeeeee;
+  font-size: 4rem;
+}
+p {
+  margin: 0 0 1.2rem 0;
+  max-width: 75rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 1.6rem;
+  }
+}
+p[class*="lead"] {
+  font-weight: 300;
+  max-width: none;
+}
+p.lead {
+  font-size: 2rem;
+}
+p.lead-lg {
+  font-size: 2.4rem;
+}
+.skip-content {
+  position: fixed;
+  top: -200px;
+}
+.skip-content:focus {
+  top: 0;
+}

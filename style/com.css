@@ -165,10 +165,13 @@ h6,
   font-size: 4rem;
 }
 p {
-  margin: 0 0 1.2rem 0;
+  margin: 0 0 .75em;
   max-width: 75rem;
   font-size: 1.8rem;
   line-height: 1.5;
+}
+p:last-child {
+  margin-bottom: 0;
 }
 @media (min-width: 768px) {
   p {
@@ -185,10 +188,37 @@ p.lead {
 p.lead-lg {
   font-size: 2.4rem;
 }
+/* Skip to Content */
 .skip-content {
   position: fixed;
   top: -200px;
 }
 .skip-content:focus {
   top: 0;
+}
+/* COM Header */
+.com-header {
+  display: flex;
+  border-bottom: 5px solid #004d54;
+}
+.com-header img {
+  width: 170px;
+  height: auto;
+  margin: 10px;
+}
+.com-header .title {
+}
+/* Main Content */
+#main-content {
+  margin-top: 50px;
+}
+/* Status Updates */
+.status-update {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 5px solid #eeeeee;
+}
+.status-update time {
+  margin: 0 0 0.75em;
+  font-style: italic;
 }

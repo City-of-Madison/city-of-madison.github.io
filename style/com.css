@@ -216,7 +216,6 @@ p.lead-lg {
   padding-bottom: 1.5em;
   border-bottom: 5px solid #eeeeee;
 }
-.status-update time {
-  margin: 0 0 0.75em;
+.status-update .update-date {
   font-style: italic;
 }
